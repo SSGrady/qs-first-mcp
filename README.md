@@ -12,11 +12,12 @@ The repo achieves this goal by creating and centralizing the setup of a MCP [too
 
 
 ## Setup
-### 1. **Clone the repo**
+### 1. **Clone and install dependencies**
 
 ```bash
 git clone git@github.com:SSGrady/qs-first-mcp.git
 cd qs-first-mcp/weather
+uv add "mcp[cli]" httpx
 ```
 
 ### 2. **Configure Claude:**
